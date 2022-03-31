@@ -5,11 +5,11 @@ $dio = mysqli_query($konek,"DELETE FROM dio_066 where id = $id");
 $hasil = mysqli_affected_rows($konek);
 if ($hasil > 0) {
     echo "<script>
-                alert('sukses');
+                alert('Selamat data anda berhasil dihapus');
         </script>";
 } else {
     echo "<script>
-                alert('gagal');
+                alert('Mohon maaf, Data anda belum berhasil dihapus');
         </script>";
 }
 ?>

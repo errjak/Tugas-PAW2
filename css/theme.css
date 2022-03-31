@@ -14649,3 +14649,8 @@ section {
 .vue-lists ul, .vue-lists ol {
     padding-left: 30px;
 }
+
+.tambah a:link, .tambah a:hover, .tambah a:visited, .tambah a:active{
+    text-decoration: none;
+    color: white;
+}
